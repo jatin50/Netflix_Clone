@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+main {
+    background-image: url(assests/images/bg.jpg);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main .bg {
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    top: 4vh;
+    right: 8vh;
+    column-gap: 40px;
+}
+
+.logo img {
+    height: 5vh;
+    position: absolute;
+    top: 5vh;
+    left: 11vw;
+    filter: brightness(40);
+    height: 7.3vh;
+
+}
+
+.side button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: none;
+    outline: 1px solid white;
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    padding: 4px 40px;
+    display: flex;
+    gap: 3px;
+}
+
+.sign_in {
+    background: rgb(229, 9, 20) !important;
+    color: white;
+    border: none;
+    height: 4vh;
+    padding: 4px;
+
+    outline: none !important;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70vh;
+    color: white;
+}
+
+.h1 {
+    font-size: 4vw;
+    margin-bottom: 3vh;
+    max-width: 60vw;
+    text-align: center;
+    font-weight: 800;
+}
+
+.h2 {
+    font-size: 2vw;
+    margin-bottom: 4vh;
+    font-weight: 500;
+}
+
+.hi4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span1 {
+    width: 350px;
+    height: 50px;
+    background: rgb(12, 12, 12);
+    opacity: 0.5;
+    padding-left: 10px;
+    color: rgb(182, 172, 172);
+    outline: 1px solid gray;
+    border: none;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.span2 {
+    width: 150px !important;
+    height: 45px;
+    background-color: rgb(229, 9, 20) !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 5px;
+    font: inherit;
+    font-weight: 7500;
+
+}
+
+#box {
+    background-color: black;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+.button {
+    background-color: rgb(24, 22, 22);
+    border: 1px solid grey;
+    margin: 5px;
+    margin-top: -10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.box2:first-child {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 8vh;
+    left: 15vw;
+}
+.container{
+height: 60vh;
+max-width: 90vw;
+margin: 80px 185px;
+    display:flex;
+    flex-direction: row;
+  gap: 35px;
+  overflow-y: visible;
+  overflow-x: scroll;
+  scrollbar-width: 0; 
+  scroll-snap-type: x mandatory y none;
+  scroll-margin-inline-start: 2.5em;
+  align-content: center;
+  justify-items: center;
+
+}
+
+.items{
+    height: 45vh;
+width: 30vh;
+}
+.items img{ 
+  background-size:cover;
+  height: 45vh;
+  width: 30vh; 
+  border: none;
+  border-radius: 10px;
+} 
+.dabba{
+    background-color: rgba(83, 83, 150, 0.336);
+border: none;
+border-radius: 15px;
+height: 50vh;
+width: 38vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.reason{
+  overflow-x: visible;
+  width: 100vw;
+  margin: 0 15vw;
+  column-gap: 10px;
+}
+.more{
+    margin: 10px 15vw;
+}
+.h5{
+    font-size: 25px;
+    margin: 15px 8px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.h6{
+    font-size: 15px;
+    margin:10px 8px;
+    color: rgb(146, 142, 142);
+}
+.question{
+    display: flex;
+    height: 120vh;
+    flex-direction: column;
+    gap: 10px;
+    margin: 4vh 15vw;
+}
+.q1{
+    background-color: rgb(49, 47, 47);
+    height: 30vh;
+    width: 72vw;
+}
+.question :first-child{
+    font-size: 30px;
+}
+.more2{
+    padding: 25px 20px;
+    font-size:10px;
+}
+
